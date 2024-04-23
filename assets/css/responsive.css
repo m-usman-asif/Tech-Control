@@ -1,0 +1,537 @@
+@media only screen and (max-width:1920px){}
+@media only screen and (max-width:1600px){}
+@media only screen and (max-width:1500px){
+    .container {
+        padding: 0 15px;
+    }
+    .featuredSlider .item {
+        width: 1350px;
+        min-height: 650px;
+    }
+}
+@media only screen and (max-width:1440px){}
+@media only screen and (max-width:1366px){
+    .featuredSlider .item {
+        width: 1200px;
+        min-height: 550px;
+    }
+    .processRow .processBox .content {
+        width: 100%;
+    }
+    .counterBox .countNum h4 {
+        font-size: 75px;
+        margin-bottom: 20px;
+    }
+    .countLabel {
+        font-size: 20px;
+    }
+
+    .ctaBarWrapper .rightCol .secTitle {
+        font-size: 40px;
+        line-height: 48px;
+        margin: 30px 0;
+    }
+    .chooseWrapper .chooseBox .content {
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width:1280px){
+    /* About Sec */
+    .aboutSection .secDesc {
+        width: 100%
+    }
+    .userInteractionBar .innerContainer .secTitle {
+        width: 100%;
+        font-size: 44px;
+    }
+}
+@media only screen and (max-width:1200px){
+    /* Header */
+    .logo {
+        max-width: 200px;
+    }
+
+    /* Hero Section Slider */
+    .heroSection {
+        min-height: 750px 
+    }
+    .bannerSlider {
+        width: 700px;
+    }
+    .bannerSlider .bannerContentInner h1 {
+        font-size: 70px;
+        line-height: 90px;
+        margin-bottom: 20px;
+    }
+    .bannerSlider .bannerContentInner .content {
+        width: 500px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .bannerSlider .owl-nav {
+        bottom: -180px;
+    }
+    .bannerSlider .owl-dots {
+        bottom: -165px;
+    }
+
+    /* Clients Logo Sec */
+    .clientSection {
+        padding: 50px 0;
+    }
+    .clientsLogoWrapper img {
+        max-width: 120px;
+    }
+
+    /* Featured Work */
+    .featuredWorkSec .secTitle {
+        width: 80%;
+    }
+    .featuredWorkSec .secDesc {
+        width: 80%;
+    }
+
+    .featuredSlider .item {
+        width: 950px;
+        min-height: 450px;
+    }
+
+    .processRow {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    .processRow .processBox {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+    .workProcessSec .secTitle {
+        width: 80%;
+    }
+
+    .counterBox .countNum h4 {
+        font-size: 60px;
+    }
+    .countLabel {
+        font-size: 16px;
+    }
+
+    .ctaBarWrapper {
+        padding: 50px;
+    }
+    .ctaBarWrapper .rightCol {
+        width: 42%;
+    }
+    .ctaBarWrapper .rightCol .secDesc {
+        margin-bottom: 30px;
+    }
+
+    .chooseUsSection .secTitle {
+        width: 50%;
+    }
+    .chooseWrapper {
+        flex-wrap: wrap;
+    }
+    .chooseWrapper .chooseBox {
+        width: 49%;
+    }
+    .chooseWrapper .chooseBox img {
+        width: 80px;
+        height: 80px;
+    }
+    .chooseWrapper .chooseBox .content {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footerWrapper {
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 50px 0;
+    }
+    .footerWrapper .leftCol,
+    .footerWrapper .rightCol {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .chooseWrapper {
+        row-gap: 35px;
+    }
+    .chooseWrapper .chooseBox {
+        width: 48%;
+    }
+}
+@media only screen and (max-width:991px){
+
+    /* Hero Section Slider */
+    .bannerSlider .bannerContentInner h1 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .bannerSlider {
+        width: 600px;
+    }
+
+    /* section tilte desc label */
+    .secLabel {
+        font-size: 16px;
+    }
+    .secTitle {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 20px 0 30px;
+    }
+    .secDesc {
+        font-size: 18px;
+    }
+    .secBnr {
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .contactDetails a {
+        font-size: 20px;
+    }
+    .aboutSection {
+        padding: 50px 0;
+    }
+    .servicesSection {
+        padding-bottom: 0;
+    }
+    .servicesInnerWrap {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .servicesInnerWrap .leftCol,
+    .servicesInnerWrap .rightCol {
+        width: 100%;
+    }
+    .aboutSection .secTitle {
+        width: 70%;
+    }
+    .servicesInnerWrap .secTitle {
+        width: 70%;
+    }
+    .featuredWorkSec {
+        padding: 50px 0 0;
+    }
+    .featuredWorkSec .secDesc {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .featuredSlider .item {
+        width: 700px;
+        min-height: 400px;
+    }
+    .firstItem {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+    .workProcessSec {
+        padding: 50px 0;
+    }
+    .workProcessSec .secTitle {
+        width: 70%;
+    }
+    .counterWrapper {
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+    .counterWrapper .counterBox {
+        width: 48%;
+    }
+    .ctaBarSection {
+        padding: 50px 0;
+    }
+    .ctaBarWrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ctaBarWrapper .leftCol,
+    .ctaBarWrapper .rightCol {
+        width: 100%;
+        text-align: center;
+    }
+    .ctaBarWrapper .leftCol img {
+        max-height: 350px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    .userInteractionBar .innerContainer .secTitle {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width:767px){
+
+    /* Header */
+    .headerInnerWrapper .btnGlobal {
+        display: none;
+    }
+    .headerInnerWrapper {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    .headerRight ul {
+        margin: 0;
+    }
+
+    /* Hero Section Slider */
+    .bannerSlider {
+        width: 500px;
+    }
+    .bannerSlider .bannerContentInner h1 {
+        font-size: 48px;
+        line-height: 65px;
+    }
+
+    .clientsLogoWrapper .item img{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .aboutSection .secTitle {
+        width: 90%;
+    }
+    .servicesInnerWrap .secTitle {
+        width: 90%;
+    }
+    .servicesInnerWrap .content {
+        width: 100%;
+    }
+    .servicesInnerWrap .accordion_body .content {
+        width: 90%;
+    }
+
+    .featuredWorkSec .secTitle {
+        width: 90%;
+    }
+    .featuredWorkSec .secDesc {
+        width: 90%;
+    }
+    .workProcessSec .secTitle {
+        width: 90%;
+    }
+    .featuredSlider .item {
+        width: 550px;
+        min-height: 400px;
+    }
+    .workDescBox {
+        width: 80%;
+    }
+    .workDescBox .head .title {
+        font-size: 36px;
+    }
+    .workDescBox .head .label {
+        font-size: 14px;
+    }
+    .processRow {
+        gap: 20px;
+    }
+    .processRow .processBox {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+
+    .ctaBarWrapper {
+        padding: 50px 15px;
+    }
+    .ctaBarWrapper .rightCol .secTitle {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .chooseUsSection .secTitle {
+        width: 80%;
+    }
+
+    .userInteractionBar .innerContainer {
+        padding: 50px 20px;
+    }
+    .userInteractionBar .innerContainer .secTitle {
+        font-size: 30px;
+    }
+
+    /* Footer */
+    .footerWrapper .leftCol .content {
+        font-size: 16px;
+    }
+    .footerLinksWrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footerLinksCol {
+        width: 48%;
+    }   
+    .socialLinksWrapper {
+        justify-content: flex-start;
+    }
+    .copyRightBar {
+        padding: 10px 0;
+    }
+
+
+}
+@media only screen and (max-width:575px){
+
+    /* Hero Section Slider */
+    .bannerSlider {
+        width: 450px;
+    }
+    .bannerSlider .bannerContentInner h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .bannerSlider .bannerContentInner .content {
+        width: 400px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .secTitle {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .contactDetails {
+        justify-content: space-between;
+        gap: 0;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+    .contactDetails a {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .aboutSection .secTitle {
+        width: 100%;
+    }
+    .secBnr {
+        min-height: 250px 
+    }
+    .servicesInnerWrap .secTitle {
+        width: 100%;
+    }
+    .servicesInnerWrap .accordion_body .content {
+        width: 100%;
+    }
+
+    .featuredWorkSec .secTitle {
+        width: 100%;
+    }
+    .featuredWorkSec .secDesc {
+        width: 100%;
+    }
+    .featuredSlider .item {
+        width: 450px;
+        min-height: 450px;
+    }
+    .workDescBox .head {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .workDescBox .workDesc {
+        font-size: 15px;
+        text-align: center;
+    }
+    .workDescBox .cta {
+        width: 100%;
+        justify-content: center;
+    }
+    .workProcessSec .secTitle {
+        width: 100%;
+    }
+    .processRow {
+        gap: 15px;
+    }
+    .chooseWrapper {
+        justify-content: flex-start;
+    }
+    .chooseWrapper .chooseBox {
+        align-items: flex-start;
+    }
+    .chooseWrapper .chooseBox {
+        width: 70%;
+    }
+    .chooseWrapper .chooseBox .content {
+        text-align: left;
+    }
+
+    /* Footer */
+    .footerLinksCol {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:480px){
+    /* Hero Section Slider */
+    .heroSection {
+        min-height: 600px;
+    }
+    .bannerSlider {
+        width: 100%;
+    }
+    .bannerSlider .bannerContentInner h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .bannerSlider .bannerContentInner .content {
+        width: 100%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .secTitle {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .accordion_head p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .featuredSlider .item {
+        width: 350px;
+        min-height: unset;
+        padding: 40px 0;
+    }
+    .processRow .processBox {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .counterWrapper {
+        padding: 50px 0;
+        row-gap: 30px;
+    }
+    .counterWrapper .counterBox {
+        width: 100%;
+    }
+    .chooseWrapper .chooseBox img {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (max-width:385px){
+    .secLabel {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .secTitle {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .accordion_head p {
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 24px;
+    }
+    .ctaBarWrapper .rightCol .secTitle {
+        font-size: 26px;
+    }
+    .chooseWrapper .chooseBox {
+        width: 100%;
+    }
+    .userInteractionBar .innerContainer .secTitle {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:320px){}
